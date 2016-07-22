@@ -42,6 +42,12 @@ group :development do
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
   gem 'spring-watcher-listen', '~> 2.0.0'
+  # Testing Framework
+  gem 'rspec-rails'
+  # Ruby style guide
+  gem 'rubocop', require: false
+  # Rails best-practices
+  gem 'rails_best_practices'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem

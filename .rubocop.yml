@@ -1,0 +1,221 @@
+AllCops:
+  TargetRubyVersion: 2.3
+
+Lint/AmbiguousOperator:
+  Enabled: false
+
+Lint/AssignmentInCondition:
+  Enabled: false
+
+Lint/BlockAlignment:
+  Enabled: false
+
+Lint/DeprecatedClassMethods:
+  Enabled: false
+
+Lint/EndAlignment:
+  Enabled: false
+
+Lint/HandleExceptions:
+  Enabled: false
+
+Lint/ShadowingOuterLocalVariable:
+  Enabled: false
+
+Lint/StringConversionInInterpolation:
+  Enabled: false
+
+Lint/UnderscorePrefixedVariableName:
+  Enabled: false
+
+Lint/UnusedBlockArgument:
+  Enabled: false
+
+Lint/UnusedMethodArgument:
+  Enabled: false
+
+Lint/UselessAssignment:
+  Enabled: false
+
+Metrics/AbcSize:
+  Max: 96
+
+Metrics/BlockNesting:
+  Max: 4
+
+Metrics/ClassLength:
+  Max: 223
+
+Metrics/CyclomaticComplexity:
+  Max: 16
+
+Metrics/LineLength:
+  Max: 269
+
+Metrics/MethodLength:
+  Max: 79
+
+Metrics/PerceivedComplexity:
+  Max: 14
+
+Style/AlignParameters:
+  Enabled: false
+
+Style/AndOr:
+  Enabled: false
+
+Style/BlockDelimiters:
+  Enabled: false
+
+Style/BlockEndNewline:
+  Enabled: false
+
+Style/BracesAroundHashParameters:
+  Enabled: false
+
+Style/ClassAndModuleChildren:
+  Enabled: false
+
+Style/CommentAnnotation:
+  Enabled: false
+
+Style/Documentation:
+  Enabled: false
+
+Style/DoubleNegation:
+  Enabled: false
+
+Style/EachWithObject:
+  Enabled: false
+
+Style/ElseAlignment:
+  Enabled: false
+
+Style/EmptyElse:
+  Enabled: false
+
+Style/EmptyLines:
+  Enabled: false
+
+Style/EmptyLinesAroundAccessModifier:
+  Enabled: false
+
+Style/EmptyLinesAroundBlockBody:
+  Enabled: false
+
+Style/EmptyLinesAroundClassBody:
+  Enabled: false
+
+Style/GlobalVars:
+  Enabled: false
+
+Style/GuardClause:
+  Enabled: false
+
+Style/HashSyntax:
+  Enabled: false
+
+Style/IfUnlessModifier:
+  Enabled: false
+
+Style/IndentArray:
+  Enabled: false
+
+Style/IndentHash:
+  Enabled: false
+
+Style/IndentationConsistency:
+  Enabled: false
+
+Style/IndentationWidth:
+  Enabled: false
+
+Style/MethodDefParentheses:
+  Enabled: false
+
+Style/MultilineBlockChain:
+  Enabled: false
+
+Style/MultilineBlockLayout:
+  Enabled: false
+
+Style/MultilineOperationIndentation:
+  Enabled: false
+
+Style/NegatedIf:
+  Enabled: false
+
+Style/Next:
+  Enabled: false
+
+Style/PercentLiteralDelimiters:
+  Enabled: false
+
+Style/PerlBackrefs:
+  Enabled: false
+
+Style/PredicateName:
+  Enabled: false
+
+Style/RaiseArgs:
+  Enabled: false
+
+Style/RedundantBegin:
+  Enabled: false
+
+Style/RedundantReturn:
+  Enabled: false
+
+Style/RedundantSelf:
+  Enabled: false
+
+Style/RegexpLiteral:
+  Enabled: false
+
+Style/Semicolon:
+  Enabled: false
+
+Style/SignalException:
+  Enabled: false
+
+Style/SingleLineBlockParams:
+  Enabled: false
+
+Style/SpaceAfterComma:
+  Enabled: false
+
+Style/SpaceAroundEqualsInParameterDefault:
+  Enabled: false
+
+Style/SpaceAroundOperators:
+  Enabled: false
+
+Style/SpaceBeforeBlockBraces:
+  Enabled: false
+
+Style/SpaceInsideBlockBraces:
+  Enabled: false
+
+Style/SpaceInsideHashLiteralBraces:
+  Enabled: false
+
+Style/StringLiterals:
+  Enabled: true
+
+Style/StringLiteralsInInterpolation:
+  Enabled: false
+
+Style/SymbolProc:
+  Enabled: false
+
+Style/TrailingBlankLines:
+  Enabled: false
+
+Style/TrivialAccessors:
+  Enabled: false
+
+Style/WordArray:
+  MinSize: 9
+
+Style/FrozenStringLiteralComment:
+  Enabled: false
