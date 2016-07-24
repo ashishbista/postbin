@@ -36,6 +36,11 @@ gem 'haml-rails', '~> 0.9'
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platform: :mri
+  gem 'rails-controller-testing'
+  # Debugging
+  gem 'pry-rails'
+  gem 'pry-nav'
+  gem 'pry-doc'
 end
 
 group :development do
@@ -47,7 +52,6 @@ group :development do
   gem 'spring-watcher-listen', '~> 2.0.0'
   # Testing Framework
   gem 'rspec-rails'
-  gem 'rails-controller-testing'
   # Ruby style guide
   gem 'rubocop', require: false
   # Rails best-practices
