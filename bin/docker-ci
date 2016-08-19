@@ -1,0 +1,23 @@
+#!/bin/bash
+set -e
+
+# Install gems first
+bundle --quiet
+
+# Template DB
+TEST_DB=$(rails runner "puts Rails.configuration.database_configuration['test']['database']")
+
+# Docker options:
+# Mount GEM_HOME directory
+# Mount the current directory to /app/code
+# Set the working directory to the project root
+
+opts="-v `readlink -f .`:/app/code
+   -e TEST_DB=$TEST_DB
+   -w /app/code
+   --privileged=true
+   postbin"
+
+# Spread and run specs accross large group of containers
+ls spec/**/*_spec.rb | parallel -j0 --no-notice -X docker run --rm $opts /app/code/bin/ci
+
