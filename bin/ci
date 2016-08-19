@@ -1,0 +1,11 @@
+#!/bin/bash
+set -e
+
+DB=docker_`hostname`
+USER=`whoami`
+
+echo "CREATE DATABASE $DB WITH TEMPLATE $TEST_DB OWNER $USER;" | bundle exec rails dbconsole
+
+echo "Running $@ in $(hostname)"
+
+SPRING_LOG=log/spring.log SPRING_TMP_PATH=tmp DATABASE_NAME=$DB bin/rspec --color "$@"
