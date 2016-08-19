@@ -1,24 +1,18 @@
-# README
+# Postbin
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+If you want to debug webhooks without exposing your critial informations
+to anyone, set it up locally. It's a typical Rails app.
 
-Things you may want to cover:
+## Running
 
-* Ruby version
+1. Clone the repo.
+2. Run `bundle install`
+3. Run `rake db:setup`
+4. Start the server `rails s`
 
-* System dependencies
+If requires PostgreSQL.
 
-* Configuration
+# Running Tests
 
-* Database creation
+`bin/docker-ci`
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
