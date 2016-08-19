@@ -12,7 +12,6 @@ to anyone, set it up locally. It's a typical Rails app.
 
 If requires PostgreSQL.
 
-# Running Tests
-
-`bin/docker-ci`
+## Running Tests
+Run `bin/configure` once, then `bin/docker-ci`.
 
