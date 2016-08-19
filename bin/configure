@@ -1,0 +1,7 @@
+#!/bin/bash
+
+# Role to be used from containers
+sudo su -c "createuser root -s" postgres > /dev/null
+
+# Create docker image
+docker build -t postbin .
